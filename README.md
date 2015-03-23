@@ -95,17 +95,17 @@ If you have any problems make sure to [checkout the FAQ](https://github.com/eelc
 * `findSerialPortChannel` does not invoke callback anymore when no channel was found.
 * `found` event now emits the Bluetooth address as the value of the name parameter `name` when the name of the device could not be determined (used to be `[undefined]`).
 
-## Pre-requests on Linux
+## Prerequisites on Linux
 
 * Needs Bluetooth development packages to build
 
 `apt-get install build-essential libbluetooth-dev`
 
-## Pre-request on OS X
+## Prerequisites on OS X
 
 * Needs XCode and XCode command line tools installed.
 
-## Pre-request on Windows
+## Prerequisites on Windows
 
 * Needs Visual Studio (Visual C++) and its command line tools installed.
 * Needs Python 2.x installed and accessible from the command line path.
